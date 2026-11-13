@@ -1,6 +1,6 @@
 # Land classification
 
-In this project I different deep learning models (both from scratch and transfer learning) to classify Sentinel-2 satellite images into 10 land-use / land-cover classes (forest, river, highway, residential...) using the [EuroSAT](https://github.com/phelber/EuroSAT) dataset. Concretely, the notebook compares three approaches: 
+In this project I use different deep learning models (both from scratch and transfer learning) to classify Sentinel-2 satellite images into 10 land-use / land-cover classes (forest, river, highway, residential...) using the [EuroSAT](https://github.com/phelber/EuroSAT) dataset. Concretely, the notebook compares three approaches: 
 
 - **CNN trained from scratch**: a small standard model with three convolutional blocks and a linear head (~175 K parameters).
 - **ResNet-18 with frozen backbone**: features pre-trained on ImageNet, training only the final adapted layer (~5 K trainable parameters).
